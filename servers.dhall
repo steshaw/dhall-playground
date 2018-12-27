@@ -10,7 +10,6 @@ let smallServer =
             1
         }
 
-in
 let mediumServer =
         λ(hostName : Text)
       → { cpus =
@@ -23,7 +22,6 @@ let mediumServer =
             4
         }
 
-in
 let largeServer =
         λ(hostName : Text)
       → { cpus =

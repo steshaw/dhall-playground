@@ -4,6 +4,6 @@ set -euo pipefail
 
 for file in *.dhall; do
   echo "$file"
-  dhall-to-json <"$file"
+  dhall-to-json --pretty --omitNull <"$file"
   echo
 done

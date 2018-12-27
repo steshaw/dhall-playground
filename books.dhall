@@ -11,7 +11,6 @@ let educationalBook =
             title
         }
 
-in
 let makeOreilly = educationalBook "O'Reilly Media"
 
 in  [ makeOreilly "Microservices for Java Developers"

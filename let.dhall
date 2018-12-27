@@ -1,3 +1,3 @@
 let x = 1
-in let y = 2
+let y = 2
 in [x, y]
