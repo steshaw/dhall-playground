@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+for file in *.dhall; do
+  echo "dhall format --inplace $file"
+  dhall format --inplace "$file"
+done
